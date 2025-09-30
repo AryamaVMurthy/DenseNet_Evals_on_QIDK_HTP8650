@@ -1,0 +1,3 @@
+- Assumes tiny-imagenet-200 exists
+- ONNX/DLC files need to be downloaded from qualcomm hub
+- Assumes qaihub is setup
