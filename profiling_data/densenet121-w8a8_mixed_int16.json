@@ -1,0 +1,3984 @@
+{
+    "execution_summary": {
+        "estimated_inference_time": 2063,
+        "estimated_inference_peak_memory": 306712576,
+        "first_load_time": 1230702,
+        "first_load_peak_memory": 314863616,
+        "warm_load_time": 1246602,
+        "warm_load_peak_memory": 288600064,
+        "compile_time": 0,
+        "compile_peak_memory": 0,
+        "compile_memory_increase_range": [
+            0,
+            0
+        ],
+        "compile_memory_peak_range": [
+            0,
+            0
+        ],
+        "first_load_memory_increase_range": [
+            82065888,
+            89735904
+        ],
+        "first_load_memory_peak_range": [
+            204435456,
+            212105472
+        ],
+        "warm_load_memory_increase_range": [
+            147678160,
+            0
+        ],
+        "warm_load_memory_peak_range": [
+            189493248,
+            349808608
+        ],
+        "inference_memory_increase_range": [
+            0,
+            32816
+        ],
+        "inference_memory_peak_range": [
+            28672,
+            52253616
+        ],
+        "all_compile_times": [],
+        "all_first_load_times": [
+            1230702
+        ],
+        "all_warm_load_times": [
+            1246602
+        ],
+        "all_inference_times": [
+            2481,
+            2092,
+            2071,
+            2072,
+            2067,
+            2068,
+            2066,
+            2073,
+            2076,
+            2077,
+            2077,
+            2245,
+            2081,
+            2074,
+            2078,
+            2066,
+            2072,
+            2078,
+            2076,
+            2079,
+            2074,
+            2069,
+            2073,
+            2076,
+            2080,
+            2067,
+            2068,
+            2074,
+            2075,
+            2075,
+            2075,
+            2072,
+            2075,
+            2064,
+            2073,
+            2069,
+            2075,
+            2071,
+            2072,
+            2066,
+            2074,
+            2077,
+            2080,
+            2079,
+            2084,
+            2075,
+            2077,
+            2079,
+            2081,
+            2069,
+            2068,
+            2067,
+            2070,
+            2071,
+            2073,
+            2067,
+            2068,
+            2069,
+            2075,
+            2066,
+            2074,
+            2074,
+            2076,
+            2080,
+            2074,
+            2073,
+            2064,
+            2076,
+            2076,
+            2078,
+            2077,
+            2070,
+            2072,
+            2066,
+            2071,
+            2066,
+            2065,
+            2074,
+            2066,
+            2073,
+            2065,
+            2067,
+            2076,
+            2072,
+            2072,
+            2071,
+            2078,
+            2070,
+            2063,
+            2067,
+            2065,
+            2067,
+            2093,
+            2080,
+            2068,
+            2069,
+            2080,
+            2071,
+            2077,
+            2077
+        ]
+    },
+    "execution_detail": [
+        {
+            "name": "Input",
+            "type": "Input",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/Sub",
+            "type": "/Sub",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 391417
+        },
+        {
+            "name": "OpId_19",
+            "type": "",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 14062
+        },
+        {
+            "name": "/Div",
+            "type": "/Div",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 1151216
+        },
+        {
+            "name": "/Div_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_16",
+            "type": "/Div",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 121788
+        },
+        {
+            "name": "/net/features/conv0/Conv",
+            "type": "/net/features/conv0/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/relu0/Relu",
+            "type": "/net/features/relu0/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 515415
+        },
+        {
+            "name": "/net/features/pool0/MaxPool",
+            "type": "/net/features/pool0/MaxPool",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 158556
+        },
+        {
+            "name": "/net/features/pool0/MaxPool_output_0_updated_converted_QNN_DATATYPE_FLOAT_16",
+            "type": "/net/features/pool0/MaxPool",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 84674
+        },
+        {
+            "name": "/net/features/denseblock1/denselayer1/norm1/BatchNormalization",
+            "type": "/net/features/denseblock1/denselayer1/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 42070
+        },
+        {
+            "name": "/net/features/denseblock1/denselayer1/norm1/BatchNormalization_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_16",
+            "type": "/net/features/denseblock1/denselayer1/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 47247
+        },
+        {
+            "name": "/net/features/denseblock1/denselayer1/relu1/Relu",
+            "type": "/net/features/denseblock1/denselayer1/relu1/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 33976
+        },
+        {
+            "name": "/net/features/denseblock1/denselayer1/relu1/Relu_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_8",
+            "type": "/net/features/denseblock1/denselayer1/relu1/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 17983
+        },
+        {
+            "name": "/net/features/denseblock1/denselayer1/conv1/Conv",
+            "type": "/net/features/denseblock1/denselayer1/conv1/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock1/denselayer1/relu2/Relu",
+            "type": "/net/features/denseblock1/denselayer1/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 9499
+        },
+        {
+            "name": "/net/features/denseblock1/denselayer1/relu2/Relu_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_16",
+            "type": "/net/features/denseblock1/denselayer1/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 33311
+        },
+        {
+            "name": "/net/features/denseblock1/denselayer1/conv2/Conv",
+            "type": "/net/features/denseblock1/denselayer1/conv2/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 64143
+        },
+        {
+            "name": "/net/features/denseblock1/denselayer2/Concat",
+            "type": "/net/features/denseblock1/denselayer2/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock1/denselayer2/Concat_output_0_updated_converted_QNN_DATATYPE_FLOAT_16",
+            "type": "/net/features/denseblock1/denselayer2/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 119961
+        },
+        {
+            "name": "/net/features/denseblock1/denselayer2/norm1/BatchNormalization",
+            "type": "/net/features/denseblock1/denselayer2/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 59315
+        },
+        {
+            "name": "/net/features/denseblock1/denselayer2/norm1/BatchNormalization_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_16",
+            "type": "/net/features/denseblock1/denselayer2/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 71476
+        },
+        {
+            "name": "/net/features/denseblock1/denselayer2/relu1/Relu",
+            "type": "/net/features/denseblock1/denselayer2/relu1/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 46753
+        },
+        {
+            "name": "/net/features/denseblock1/denselayer2/relu1/Relu_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_8",
+            "type": "/net/features/denseblock1/denselayer2/relu1/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 15056
+        },
+        {
+            "name": "/net/features/denseblock1/denselayer2/conv1/Conv",
+            "type": "/net/features/denseblock1/denselayer2/conv1/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock1/denselayer2/relu2/Relu",
+            "type": "/net/features/denseblock1/denselayer2/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 4201
+        },
+        {
+            "name": "/net/features/denseblock1/denselayer2/relu2/Relu_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_16",
+            "type": "/net/features/denseblock1/denselayer2/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 28915
+        },
+        {
+            "name": "/net/features/denseblock1/denselayer2/conv2/Conv",
+            "type": "/net/features/denseblock1/denselayer2/conv2/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 59902
+        },
+        {
+            "name": "/net/features/denseblock1/denselayer3/Concat",
+            "type": "/net/features/denseblock1/denselayer3/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock1/denselayer3/Concat_output_0_updated_converted_QNN_DATATYPE_FLOAT_16",
+            "type": "/net/features/denseblock1/denselayer3/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 158253
+        },
+        {
+            "name": "/net/features/denseblock1/denselayer3/norm1/BatchNormalization",
+            "type": "/net/features/denseblock1/denselayer3/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 77275
+        },
+        {
+            "name": "/net/features/denseblock1/denselayer3/norm1/BatchNormalization_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_8",
+            "type": "/net/features/denseblock1/denselayer3/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 213551
+        },
+        {
+            "name": "/net/features/denseblock1/denselayer3/relu1/Relu",
+            "type": "/net/features/denseblock1/denselayer3/relu1/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock1/denselayer3/conv1/Conv",
+            "type": "/net/features/denseblock1/denselayer3/conv1/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock1/denselayer3/relu2/Relu",
+            "type": "/net/features/denseblock1/denselayer3/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 4779
+        },
+        {
+            "name": "/net/features/denseblock1/denselayer3/relu2/Relu_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_16",
+            "type": "/net/features/denseblock1/denselayer3/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 28430
+        },
+        {
+            "name": "/net/features/denseblock1/denselayer3/conv2/Conv",
+            "type": "/net/features/denseblock1/denselayer3/conv2/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 59850
+        },
+        {
+            "name": "/net/features/denseblock1/denselayer4/Concat",
+            "type": "/net/features/denseblock1/denselayer4/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock1/denselayer4/Concat_output_0_updated_converted_QNN_DATATYPE_FLOAT_16",
+            "type": "/net/features/denseblock1/denselayer4/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 196917
+        },
+        {
+            "name": "/net/features/denseblock1/denselayer4/norm1/BatchNormalization",
+            "type": "/net/features/denseblock1/denselayer4/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 90657
+        },
+        {
+            "name": "/net/features/denseblock1/denselayer4/norm1/BatchNormalization_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_8",
+            "type": "/net/features/denseblock1/denselayer4/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 249599
+        },
+        {
+            "name": "/net/features/denseblock1/denselayer4/relu1/Relu",
+            "type": "/net/features/denseblock1/denselayer4/relu1/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock1/denselayer4/conv1/Conv",
+            "type": "/net/features/denseblock1/denselayer4/conv1/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock1/denselayer4/relu2/Relu",
+            "type": "/net/features/denseblock1/denselayer4/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 4903
+        },
+        {
+            "name": "/net/features/denseblock1/denselayer4/relu2/Relu_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_16",
+            "type": "/net/features/denseblock1/denselayer4/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 28278
+        },
+        {
+            "name": "/net/features/denseblock1/denselayer4/conv2/Conv",
+            "type": "/net/features/denseblock1/denselayer4/conv2/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 60308
+        },
+        {
+            "name": "/net/features/denseblock1/denselayer5/Concat",
+            "type": "/net/features/denseblock1/denselayer5/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock1/denselayer5/Concat_output_0_updated_converted_QNN_DATATYPE_FLOAT_16",
+            "type": "/net/features/denseblock1/denselayer5/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 233106
+        },
+        {
+            "name": "/net/features/denseblock1/denselayer5/norm1/BatchNormalization",
+            "type": "/net/features/denseblock1/denselayer5/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 106375
+        },
+        {
+            "name": "/net/features/denseblock1/denselayer5/norm1/BatchNormalization_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_8",
+            "type": "/net/features/denseblock1/denselayer5/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 294582
+        },
+        {
+            "name": "/net/features/denseblock1/denselayer5/relu1/Relu",
+            "type": "/net/features/denseblock1/denselayer5/relu1/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock1/denselayer5/conv1/Conv",
+            "type": "/net/features/denseblock1/denselayer5/conv1/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock1/denselayer5/relu2/Relu",
+            "type": "/net/features/denseblock1/denselayer5/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 5471
+        },
+        {
+            "name": "/net/features/denseblock1/denselayer5/relu2/Relu_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_16",
+            "type": "/net/features/denseblock1/denselayer5/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 28443
+        },
+        {
+            "name": "/net/features/denseblock1/denselayer5/conv2/Conv",
+            "type": "/net/features/denseblock1/denselayer5/conv2/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 60159
+        },
+        {
+            "name": "/net/features/denseblock1/denselayer6/Concat",
+            "type": "/net/features/denseblock1/denselayer6/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock1/denselayer6/Concat_output_0_updated_converted_QNN_DATATYPE_FLOAT_16",
+            "type": "/net/features/denseblock1/denselayer6/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 270593
+        },
+        {
+            "name": "/net/features/denseblock1/denselayer6/norm1/BatchNormalization",
+            "type": "/net/features/denseblock1/denselayer6/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 122901
+        },
+        {
+            "name": "/net/features/denseblock1/denselayer6/norm1/BatchNormalization_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_8",
+            "type": "/net/features/denseblock1/denselayer6/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 334309
+        },
+        {
+            "name": "/net/features/denseblock1/denselayer6/relu1/Relu",
+            "type": "/net/features/denseblock1/denselayer6/relu1/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock1/denselayer6/conv1/Conv",
+            "type": "/net/features/denseblock1/denselayer6/conv1/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock1/denselayer6/relu2/Relu",
+            "type": "/net/features/denseblock1/denselayer6/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 7189
+        },
+        {
+            "name": "/net/features/denseblock1/denselayer6/relu2/Relu_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_16",
+            "type": "/net/features/denseblock1/denselayer6/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 28106
+        },
+        {
+            "name": "/net/features/denseblock1/denselayer6/conv2/Conv",
+            "type": "/net/features/denseblock1/denselayer6/conv2/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 29849
+        },
+        {
+            "name": "/net/features/denseblock1/Concat",
+            "type": "/net/features/denseblock1/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock1/Concat_output_0_updated_converted_QNN_DATATYPE_FLOAT_16",
+            "type": "/net/features/denseblock1/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 298610
+        },
+        {
+            "name": "/net/features/transition1/norm/BatchNormalization",
+            "type": "/net/features/transition1/norm/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 142222
+        },
+        {
+            "name": "/net/features/transition1/norm/BatchNormalization_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_16",
+            "type": "/net/features/transition1/norm/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 167653
+        },
+        {
+            "name": "/net/features/transition1/relu/Relu",
+            "type": "/net/features/transition1/relu/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 118451
+        },
+        {
+            "name": "/net/features/transition1/relu/Relu_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_8",
+            "type": "/net/features/transition1/relu/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 32871
+        },
+        {
+            "name": "/net/features/transition1/conv/Conv",
+            "type": "/net/features/transition1/conv/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 7358
+        },
+        {
+            "name": "/net/features/transition1/conv/Conv_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_16",
+            "type": "/net/features/transition1/conv/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 29298
+        },
+        {
+            "name": "/net/features/transition1/pool/AveragePool",
+            "type": "/net/features/transition1/pool/AveragePool",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 140838
+        },
+        {
+            "name": "/net/features/transition1/pool/AveragePool_output_0_updated_converted_QNN_DATATYPE_FLOAT_16",
+            "type": "/net/features/transition1/pool/AveragePool",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 41128
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer1/norm1/BatchNormalization",
+            "type": "/net/features/denseblock2/denselayer1/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 18864
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer1/norm1/BatchNormalization_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_16",
+            "type": "/net/features/denseblock2/denselayer1/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 25512
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer1/relu1/Relu",
+            "type": "/net/features/denseblock2/denselayer1/relu1/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 17525
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer1/relu1/Relu_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_8",
+            "type": "/net/features/denseblock2/denselayer1/relu1/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 4571
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer1/conv1/Conv",
+            "type": "/net/features/denseblock2/denselayer1/conv1/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer1/relu2/Relu",
+            "type": "/net/features/denseblock2/denselayer1/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 1769
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer1/relu2/Relu_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_16",
+            "type": "/net/features/denseblock2/denselayer1/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 8187
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer1/conv2/Conv",
+            "type": "/net/features/denseblock2/denselayer1/conv2/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 11437
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer2/Concat",
+            "type": "/net/features/denseblock2/denselayer2/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer2/Concat_output_0_updated_converted_QNN_DATATYPE_FLOAT_16",
+            "type": "/net/features/denseblock2/denselayer2/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 53465
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer2/norm1/BatchNormalization",
+            "type": "/net/features/denseblock2/denselayer2/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 22566
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer2/norm1/BatchNormalization_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_8",
+            "type": "/net/features/denseblock2/denselayer2/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 68351
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer2/relu1/Relu",
+            "type": "/net/features/denseblock2/denselayer2/relu1/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer2/conv1/Conv",
+            "type": "/net/features/denseblock2/denselayer2/conv1/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer2/relu2/Relu",
+            "type": "/net/features/denseblock2/denselayer2/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 2111
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer2/relu2/Relu_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_16",
+            "type": "/net/features/denseblock2/denselayer2/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 8134
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer2/conv2/Conv",
+            "type": "/net/features/denseblock2/denselayer2/conv2/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 9610
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer3/Concat",
+            "type": "/net/features/denseblock2/denselayer3/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer3/Concat_output_0_updated_converted_QNN_DATATYPE_FLOAT_16",
+            "type": "/net/features/denseblock2/denselayer3/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 61846
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer3/norm1/BatchNormalization",
+            "type": "/net/features/denseblock2/denselayer3/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 28303
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer3/norm1/BatchNormalization_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_8",
+            "type": "/net/features/denseblock2/denselayer3/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 83216
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer3/relu1/Relu",
+            "type": "/net/features/denseblock2/denselayer3/relu1/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer3/conv1/Conv",
+            "type": "/net/features/denseblock2/denselayer3/conv1/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer3/relu2/Relu",
+            "type": "/net/features/denseblock2/denselayer3/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 2090
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer3/relu2/Relu_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_16",
+            "type": "/net/features/denseblock2/denselayer3/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 8175
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer3/conv2/Conv",
+            "type": "/net/features/denseblock2/denselayer3/conv2/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 10047
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer4/Concat",
+            "type": "/net/features/denseblock2/denselayer4/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer4/Concat_output_0_updated_converted_QNN_DATATYPE_FLOAT_16",
+            "type": "/net/features/denseblock2/denselayer4/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 73842
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer4/norm1/BatchNormalization",
+            "type": "/net/features/denseblock2/denselayer4/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 32552
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer4/norm1/BatchNormalization_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_8",
+            "type": "/net/features/denseblock2/denselayer4/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 98715
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer4/relu1/Relu",
+            "type": "/net/features/denseblock2/denselayer4/relu1/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer4/conv1/Conv",
+            "type": "/net/features/denseblock2/denselayer4/conv1/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer4/relu2/Relu",
+            "type": "/net/features/denseblock2/denselayer4/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 2373
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer4/relu2/Relu_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_16",
+            "type": "/net/features/denseblock2/denselayer4/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 8319
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer4/conv2/Conv",
+            "type": "/net/features/denseblock2/denselayer4/conv2/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 10015
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer5/Concat",
+            "type": "/net/features/denseblock2/denselayer5/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer5/Concat_output_0_updated_converted_QNN_DATATYPE_FLOAT_16",
+            "type": "/net/features/denseblock2/denselayer5/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 83825
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer5/norm1/BatchNormalization",
+            "type": "/net/features/denseblock2/denselayer5/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 37209
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer5/norm1/BatchNormalization_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_8",
+            "type": "/net/features/denseblock2/denselayer5/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 108264
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer5/relu1/Relu",
+            "type": "/net/features/denseblock2/denselayer5/relu1/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer5/conv1/Conv",
+            "type": "/net/features/denseblock2/denselayer5/conv1/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer5/relu2/Relu",
+            "type": "/net/features/denseblock2/denselayer5/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 2983
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer5/relu2/Relu_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_16",
+            "type": "/net/features/denseblock2/denselayer5/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 8476
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer5/conv2/Conv",
+            "type": "/net/features/denseblock2/denselayer5/conv2/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 9774
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer6/Concat",
+            "type": "/net/features/denseblock2/denselayer6/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer6/Concat_output_0_updated_converted_QNN_DATATYPE_FLOAT_16",
+            "type": "/net/features/denseblock2/denselayer6/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 11790
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer6/norm1/BatchNormalization",
+            "type": "/net/features/denseblock2/denselayer6/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 41575
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer6/norm1/BatchNormalization_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_8",
+            "type": "/net/features/denseblock2/denselayer6/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 122794
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer6/relu1/Relu",
+            "type": "/net/features/denseblock2/denselayer6/relu1/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer6/conv1/Conv",
+            "type": "/net/features/denseblock2/denselayer6/conv1/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer6/relu2/Relu",
+            "type": "/net/features/denseblock2/denselayer6/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 3227
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer6/relu2/Relu_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_16",
+            "type": "/net/features/denseblock2/denselayer6/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 8284
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer6/conv2/Conv",
+            "type": "/net/features/denseblock2/denselayer6/conv2/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 9967
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer7/Concat",
+            "type": "/net/features/denseblock2/denselayer7/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer7/Concat_output_0_updated_converted_QNN_DATATYPE_FLOAT_16",
+            "type": "/net/features/denseblock2/denselayer7/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 22066
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer7/norm1/BatchNormalization",
+            "type": "/net/features/denseblock2/denselayer7/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 45672
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer7/norm1/BatchNormalization_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_8",
+            "type": "/net/features/denseblock2/denselayer7/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 136461
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer7/relu1/Relu",
+            "type": "/net/features/denseblock2/denselayer7/relu1/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer7/conv1/Conv",
+            "type": "/net/features/denseblock2/denselayer7/conv1/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer7/relu2/Relu",
+            "type": "/net/features/denseblock2/denselayer7/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 3107
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer7/relu2/Relu_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_16",
+            "type": "/net/features/denseblock2/denselayer7/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 8325
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer7/conv2/Conv",
+            "type": "/net/features/denseblock2/denselayer7/conv2/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 9652
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer8/Concat",
+            "type": "/net/features/denseblock2/denselayer8/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer8/Concat_output_0_updated_converted_QNN_DATATYPE_FLOAT_16",
+            "type": "/net/features/denseblock2/denselayer8/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 32087
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer8/norm1/BatchNormalization",
+            "type": "/net/features/denseblock2/denselayer8/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 50258
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer8/norm1/BatchNormalization_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_8",
+            "type": "/net/features/denseblock2/denselayer8/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 150971
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer8/relu1/Relu",
+            "type": "/net/features/denseblock2/denselayer8/relu1/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer8/conv1/Conv",
+            "type": "/net/features/denseblock2/denselayer8/conv1/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer8/relu2/Relu",
+            "type": "/net/features/denseblock2/denselayer8/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 3354
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer8/relu2/Relu_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_16",
+            "type": "/net/features/denseblock2/denselayer8/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 8268
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer8/conv2/Conv",
+            "type": "/net/features/denseblock2/denselayer8/conv2/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 9961
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer9/Concat",
+            "type": "/net/features/denseblock2/denselayer9/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer9/Concat_output_0_updated_converted_QNN_DATATYPE_FLOAT_16",
+            "type": "/net/features/denseblock2/denselayer9/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 42582
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer9/norm1/BatchNormalization",
+            "type": "/net/features/denseblock2/denselayer9/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 54340
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer9/norm1/BatchNormalization_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_8",
+            "type": "/net/features/denseblock2/denselayer9/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 164362
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer9/relu1/Relu",
+            "type": "/net/features/denseblock2/denselayer9/relu1/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer9/conv1/Conv",
+            "type": "/net/features/denseblock2/denselayer9/conv1/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer9/relu2/Relu",
+            "type": "/net/features/denseblock2/denselayer9/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 3509
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer9/relu2/Relu_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_16",
+            "type": "/net/features/denseblock2/denselayer9/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 8209
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer9/conv2/Conv",
+            "type": "/net/features/denseblock2/denselayer9/conv2/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 9989
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer10/Concat",
+            "type": "/net/features/denseblock2/denselayer10/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer10/Concat_output_0_updated_converted_QNN_DATATYPE_FLOAT_16",
+            "type": "/net/features/denseblock2/denselayer10/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 53292
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer10/norm1/BatchNormalization",
+            "type": "/net/features/denseblock2/denselayer10/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 58625
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer10/norm1/BatchNormalization_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_8",
+            "type": "/net/features/denseblock2/denselayer10/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 177202
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer10/relu1/Relu",
+            "type": "/net/features/denseblock2/denselayer10/relu1/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer10/conv1/Conv",
+            "type": "/net/features/denseblock2/denselayer10/conv1/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer10/relu2/Relu",
+            "type": "/net/features/denseblock2/denselayer10/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 3655
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer10/relu2/Relu_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_16",
+            "type": "/net/features/denseblock2/denselayer10/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 8205
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer10/conv2/Conv",
+            "type": "/net/features/denseblock2/denselayer10/conv2/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 9556
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer11/Concat",
+            "type": "/net/features/denseblock2/denselayer11/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer11/Concat_output_0_updated_converted_QNN_DATATYPE_FLOAT_16",
+            "type": "/net/features/denseblock2/denselayer11/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 63330
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer11/norm1/BatchNormalization",
+            "type": "/net/features/denseblock2/denselayer11/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 63111
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer11/norm1/BatchNormalization_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_8",
+            "type": "/net/features/denseblock2/denselayer11/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 191689
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer11/relu1/Relu",
+            "type": "/net/features/denseblock2/denselayer11/relu1/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer11/conv1/Conv",
+            "type": "/net/features/denseblock2/denselayer11/conv1/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer11/relu2/Relu",
+            "type": "/net/features/denseblock2/denselayer11/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 4240
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer11/relu2/Relu_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_16",
+            "type": "/net/features/denseblock2/denselayer11/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 8210
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer11/conv2/Conv",
+            "type": "/net/features/denseblock2/denselayer11/conv2/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 10017
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer12/Concat",
+            "type": "/net/features/denseblock2/denselayer12/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer12/Concat_output_0_updated_converted_QNN_DATATYPE_FLOAT_16",
+            "type": "/net/features/denseblock2/denselayer12/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 73460
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer12/norm1/BatchNormalization",
+            "type": "/net/features/denseblock2/denselayer12/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 67277
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer12/norm1/BatchNormalization_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_8",
+            "type": "/net/features/denseblock2/denselayer12/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 204830
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer12/relu1/Relu",
+            "type": "/net/features/denseblock2/denselayer12/relu1/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer12/conv1/Conv",
+            "type": "/net/features/denseblock2/denselayer12/conv1/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer12/relu2/Relu",
+            "type": "/net/features/denseblock2/denselayer12/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 4287
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer12/relu2/Relu_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_16",
+            "type": "/net/features/denseblock2/denselayer12/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 9011
+        },
+        {
+            "name": "/net/features/denseblock2/denselayer12/conv2/Conv",
+            "type": "/net/features/denseblock2/denselayer12/conv2/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 9816
+        },
+        {
+            "name": "/net/features/denseblock2/Concat",
+            "type": "/net/features/denseblock2/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock2/Concat_output_0_updated_converted_QNN_DATATYPE_FLOAT_16",
+            "type": "/net/features/denseblock2/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 83963
+        },
+        {
+            "name": "/net/features/transition2/norm/BatchNormalization",
+            "type": "/net/features/transition2/norm/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 71862
+        },
+        {
+            "name": "/net/features/transition2/norm/BatchNormalization_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_8",
+            "type": "/net/features/transition2/norm/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 218053
+        },
+        {
+            "name": "/net/features/transition2/relu/Relu",
+            "type": "/net/features/transition2/relu/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/transition2/conv/Conv",
+            "type": "/net/features/transition2/conv/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 8507
+        },
+        {
+            "name": "/net/features/transition2/conv/Conv_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_16",
+            "type": "/net/features/transition2/conv/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 18430
+        },
+        {
+            "name": "/net/features/transition2/pool/AveragePool",
+            "type": "/net/features/transition2/pool/AveragePool",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 195286
+        },
+        {
+            "name": "/net/features/transition2/pool/AveragePool_output_0_updated_converted_QNN_DATATYPE_FLOAT_16",
+            "type": "/net/features/transition2/pool/AveragePool",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 23686
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer1/norm1/BatchNormalization",
+            "type": "/net/features/denseblock3/denselayer1/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 12114
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer1/norm1/BatchNormalization_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_16",
+            "type": "/net/features/denseblock3/denselayer1/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 15310
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer1/relu1/Relu",
+            "type": "/net/features/denseblock3/denselayer1/relu1/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 10574
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer1/relu1/Relu_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_8",
+            "type": "/net/features/denseblock3/denselayer1/relu1/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 2449
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer1/conv1/Conv",
+            "type": "/net/features/denseblock3/denselayer1/conv1/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer1/relu2/Relu",
+            "type": "/net/features/denseblock3/denselayer1/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 1162
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer1/relu2/Relu_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_16",
+            "type": "/net/features/denseblock3/denselayer1/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 2501
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer1/conv2/Conv",
+            "type": "/net/features/denseblock3/denselayer1/conv2/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 20195
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer2/Concat",
+            "type": "/net/features/denseblock3/denselayer2/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer2/Concat_output_0_updated_converted_QNN_DATATYPE_FLOAT_16",
+            "type": "/net/features/denseblock3/denselayer2/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 27441
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer2/norm1/BatchNormalization",
+            "type": "/net/features/denseblock3/denselayer2/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 14052
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer2/norm1/BatchNormalization_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_8",
+            "type": "/net/features/denseblock3/denselayer2/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 36337
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer2/relu1/Relu",
+            "type": "/net/features/denseblock3/denselayer2/relu1/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer2/conv1/Conv",
+            "type": "/net/features/denseblock3/denselayer2/conv1/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer2/relu2/Relu",
+            "type": "/net/features/denseblock3/denselayer2/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 1231
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer2/relu2/Relu_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_16",
+            "type": "/net/features/denseblock3/denselayer2/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 2879
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer2/conv2/Conv",
+            "type": "/net/features/denseblock3/denselayer2/conv2/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 17540
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer3/Concat",
+            "type": "/net/features/denseblock3/denselayer3/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer3/Concat_output_0_updated_converted_QNN_DATATYPE_FLOAT_16",
+            "type": "/net/features/denseblock3/denselayer3/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 30665
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer3/norm1/BatchNormalization",
+            "type": "/net/features/denseblock3/denselayer3/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 15498
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer3/norm1/BatchNormalization_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_8",
+            "type": "/net/features/denseblock3/denselayer3/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 40169
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer3/relu1/Relu",
+            "type": "/net/features/denseblock3/denselayer3/relu1/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer3/conv1/Conv",
+            "type": "/net/features/denseblock3/denselayer3/conv1/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer3/relu2/Relu",
+            "type": "/net/features/denseblock3/denselayer3/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 1240
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer3/relu2/Relu_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_16",
+            "type": "/net/features/denseblock3/denselayer3/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 2579
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer3/conv2/Conv",
+            "type": "/net/features/denseblock3/denselayer3/conv2/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 16479
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer4/Concat",
+            "type": "/net/features/denseblock3/denselayer4/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer4/Concat_output_0_updated_converted_QNN_DATATYPE_FLOAT_16",
+            "type": "/net/features/denseblock3/denselayer4/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 3550
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer4/norm1/BatchNormalization",
+            "type": "/net/features/denseblock3/denselayer4/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 16760
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer4/norm1/BatchNormalization_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_8",
+            "type": "/net/features/denseblock3/denselayer4/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 45496
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer4/relu1/Relu",
+            "type": "/net/features/denseblock3/denselayer4/relu1/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer4/conv1/Conv",
+            "type": "/net/features/denseblock3/denselayer4/conv1/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer4/relu2/Relu",
+            "type": "/net/features/denseblock3/denselayer4/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 1128
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer4/relu2/Relu_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_16",
+            "type": "/net/features/denseblock3/denselayer4/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 2936
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer4/conv2/Conv",
+            "type": "/net/features/denseblock3/denselayer4/conv2/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 14486
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer5/Concat",
+            "type": "/net/features/denseblock3/denselayer5/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer5/Concat_output_0_updated_converted_QNN_DATATYPE_FLOAT_16",
+            "type": "/net/features/denseblock3/denselayer5/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 37557
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer5/norm1/BatchNormalization",
+            "type": "/net/features/denseblock3/denselayer5/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 17977
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer5/norm1/BatchNormalization_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_8",
+            "type": "/net/features/denseblock3/denselayer5/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 47241
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer5/relu1/Relu",
+            "type": "/net/features/denseblock3/denselayer5/relu1/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer5/conv1/Conv",
+            "type": "/net/features/denseblock3/denselayer5/conv1/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer5/relu2/Relu",
+            "type": "/net/features/denseblock3/denselayer5/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 1277
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer5/relu2/Relu_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_16",
+            "type": "/net/features/denseblock3/denselayer5/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 2491
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer5/conv2/Conv",
+            "type": "/net/features/denseblock3/denselayer5/conv2/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 14171
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer6/Concat",
+            "type": "/net/features/denseblock3/denselayer6/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer6/Concat_output_0_updated_converted_QNN_DATATYPE_FLOAT_16",
+            "type": "/net/features/denseblock3/denselayer6/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 3562
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer6/norm1/BatchNormalization",
+            "type": "/net/features/denseblock3/denselayer6/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 19891
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer6/norm1/BatchNormalization_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_8",
+            "type": "/net/features/denseblock3/denselayer6/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 53389
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer6/relu1/Relu",
+            "type": "/net/features/denseblock3/denselayer6/relu1/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer6/conv1/Conv",
+            "type": "/net/features/denseblock3/denselayer6/conv1/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer6/relu2/Relu",
+            "type": "/net/features/denseblock3/denselayer6/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 1371
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer6/relu2/Relu_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_16",
+            "type": "/net/features/denseblock3/denselayer6/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 2474
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer6/conv2/Conv",
+            "type": "/net/features/denseblock3/denselayer6/conv2/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 14295
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer7/Concat",
+            "type": "/net/features/denseblock3/denselayer7/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer7/Concat_output_0_updated_converted_QNN_DATATYPE_FLOAT_16",
+            "type": "/net/features/denseblock3/denselayer7/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 6997
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer7/norm1/BatchNormalization",
+            "type": "/net/features/denseblock3/denselayer7/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 21159
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer7/norm1/BatchNormalization_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_8",
+            "type": "/net/features/denseblock3/denselayer7/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 55014
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer7/relu1/Relu",
+            "type": "/net/features/denseblock3/denselayer7/relu1/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer7/conv1/Conv",
+            "type": "/net/features/denseblock3/denselayer7/conv1/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer7/relu2/Relu",
+            "type": "/net/features/denseblock3/denselayer7/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 1213
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer7/relu2/Relu_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_16",
+            "type": "/net/features/denseblock3/denselayer7/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 2446
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer7/conv2/Conv",
+            "type": "/net/features/denseblock3/denselayer7/conv2/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 14209
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer8/Concat",
+            "type": "/net/features/denseblock3/denselayer8/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer8/Concat_output_0_updated_converted_QNN_DATATYPE_FLOAT_16",
+            "type": "/net/features/denseblock3/denselayer8/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 3558
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer8/norm1/BatchNormalization",
+            "type": "/net/features/denseblock3/denselayer8/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 22759
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer8/norm1/BatchNormalization_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_8",
+            "type": "/net/features/denseblock3/denselayer8/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 61325
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer8/relu1/Relu",
+            "type": "/net/features/denseblock3/denselayer8/relu1/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer8/conv1/Conv",
+            "type": "/net/features/denseblock3/denselayer8/conv1/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer8/relu2/Relu",
+            "type": "/net/features/denseblock3/denselayer8/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 1310
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer8/relu2/Relu_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_16",
+            "type": "/net/features/denseblock3/denselayer8/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 2495
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer8/conv2/Conv",
+            "type": "/net/features/denseblock3/denselayer8/conv2/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 11304
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer9/Concat",
+            "type": "/net/features/denseblock3/denselayer9/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer9/Concat_output_0_updated_converted_QNN_DATATYPE_FLOAT_16",
+            "type": "/net/features/denseblock3/denselayer9/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 49055
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer9/norm1/BatchNormalization",
+            "type": "/net/features/denseblock3/denselayer9/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 21463
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer9/norm1/BatchNormalization_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_8",
+            "type": "/net/features/denseblock3/denselayer9/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 62812
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer9/relu1/Relu",
+            "type": "/net/features/denseblock3/denselayer9/relu1/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer9/conv1/Conv",
+            "type": "/net/features/denseblock3/denselayer9/conv1/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer9/relu2/Relu",
+            "type": "/net/features/denseblock3/denselayer9/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 1533
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer9/relu2/Relu_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_16",
+            "type": "/net/features/denseblock3/denselayer9/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 2620
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer9/conv2/Conv",
+            "type": "/net/features/denseblock3/denselayer9/conv2/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 9216
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer10/Concat",
+            "type": "/net/features/denseblock3/denselayer10/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer10/Concat_output_0_updated_converted_QNN_DATATYPE_FLOAT_16",
+            "type": "/net/features/denseblock3/denselayer10/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 50470
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer10/norm1/BatchNormalization",
+            "type": "/net/features/denseblock3/denselayer10/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 23591
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer10/norm1/BatchNormalization_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_8",
+            "type": "/net/features/denseblock3/denselayer10/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 67189
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer10/relu1/Relu",
+            "type": "/net/features/denseblock3/denselayer10/relu1/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer10/conv1/Conv",
+            "type": "/net/features/denseblock3/denselayer10/conv1/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer10/relu2/Relu",
+            "type": "/net/features/denseblock3/denselayer10/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 1542
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer10/relu2/Relu_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_16",
+            "type": "/net/features/denseblock3/denselayer10/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 2570
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer10/conv2/Conv",
+            "type": "/net/features/denseblock3/denselayer10/conv2/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 9068
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer11/Concat",
+            "type": "/net/features/denseblock3/denselayer11/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer11/Concat_output_0_updated_converted_QNN_DATATYPE_FLOAT_16",
+            "type": "/net/features/denseblock3/denselayer11/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 6834
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer11/norm1/BatchNormalization",
+            "type": "/net/features/denseblock3/denselayer11/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 24825
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer11/norm1/BatchNormalization_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_8",
+            "type": "/net/features/denseblock3/denselayer11/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 70686
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer11/relu1/Relu",
+            "type": "/net/features/denseblock3/denselayer11/relu1/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer11/conv1/Conv",
+            "type": "/net/features/denseblock3/denselayer11/conv1/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer11/relu2/Relu",
+            "type": "/net/features/denseblock3/denselayer11/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 1813
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer11/relu2/Relu_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_16",
+            "type": "/net/features/denseblock3/denselayer11/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 2572
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer11/conv2/Conv",
+            "type": "/net/features/denseblock3/denselayer11/conv2/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 8889
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer12/Concat",
+            "type": "/net/features/denseblock3/denselayer12/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer12/Concat_output_0_updated_converted_QNN_DATATYPE_FLOAT_16",
+            "type": "/net/features/denseblock3/denselayer12/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 10383
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer12/norm1/BatchNormalization",
+            "type": "/net/features/denseblock3/denselayer12/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 26107
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer12/norm1/BatchNormalization_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_8",
+            "type": "/net/features/denseblock3/denselayer12/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 74823
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer12/relu1/Relu",
+            "type": "/net/features/denseblock3/denselayer12/relu1/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer12/conv1/Conv",
+            "type": "/net/features/denseblock3/denselayer12/conv1/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer12/relu2/Relu",
+            "type": "/net/features/denseblock3/denselayer12/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 1570
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer12/relu2/Relu_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_16",
+            "type": "/net/features/denseblock3/denselayer12/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 2547
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer12/conv2/Conv",
+            "type": "/net/features/denseblock3/denselayer12/conv2/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 8925
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer13/Concat",
+            "type": "/net/features/denseblock3/denselayer13/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer13/Concat_output_0_updated_converted_QNN_DATATYPE_FLOAT_16",
+            "type": "/net/features/denseblock3/denselayer13/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 13357
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer13/norm1/BatchNormalization",
+            "type": "/net/features/denseblock3/denselayer13/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 27445
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer13/norm1/BatchNormalization_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_8",
+            "type": "/net/features/denseblock3/denselayer13/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 78521
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer13/relu1/Relu",
+            "type": "/net/features/denseblock3/denselayer13/relu1/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer13/conv1/Conv",
+            "type": "/net/features/denseblock3/denselayer13/conv1/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer13/relu2/Relu",
+            "type": "/net/features/denseblock3/denselayer13/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 1653
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer13/relu2/Relu_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_16",
+            "type": "/net/features/denseblock3/denselayer13/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 2481
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer13/conv2/Conv",
+            "type": "/net/features/denseblock3/denselayer13/conv2/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 5533
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer14/Concat",
+            "type": "/net/features/denseblock3/denselayer14/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer14/Concat_output_0_updated_converted_QNN_DATATYPE_FLOAT_16",
+            "type": "/net/features/denseblock3/denselayer14/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 15081
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer14/norm1/BatchNormalization",
+            "type": "/net/features/denseblock3/denselayer14/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 29236
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer14/norm1/BatchNormalization_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_8",
+            "type": "/net/features/denseblock3/denselayer14/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 82699
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer14/relu1/Relu",
+            "type": "/net/features/denseblock3/denselayer14/relu1/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer14/conv1/Conv",
+            "type": "/net/features/denseblock3/denselayer14/conv1/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer14/relu2/Relu",
+            "type": "/net/features/denseblock3/denselayer14/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 1711
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer14/relu2/Relu_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_16",
+            "type": "/net/features/denseblock3/denselayer14/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 2474
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer14/conv2/Conv",
+            "type": "/net/features/denseblock3/denselayer14/conv2/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 5481
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer15/Concat",
+            "type": "/net/features/denseblock3/denselayer15/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer15/Concat_output_0_updated_converted_QNN_DATATYPE_FLOAT_16",
+            "type": "/net/features/denseblock3/denselayer15/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 17994
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer15/norm1/BatchNormalization",
+            "type": "/net/features/denseblock3/denselayer15/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 29892
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer15/norm1/BatchNormalization_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_8",
+            "type": "/net/features/denseblock3/denselayer15/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 86600
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer15/relu1/Relu",
+            "type": "/net/features/denseblock3/denselayer15/relu1/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer15/conv1/Conv",
+            "type": "/net/features/denseblock3/denselayer15/conv1/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer15/relu2/Relu",
+            "type": "/net/features/denseblock3/denselayer15/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 1813
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer15/relu2/Relu_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_16",
+            "type": "/net/features/denseblock3/denselayer15/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 2510
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer15/conv2/Conv",
+            "type": "/net/features/denseblock3/denselayer15/conv2/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 9011
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer16/Concat",
+            "type": "/net/features/denseblock3/denselayer16/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer16/Concat_output_0_updated_converted_QNN_DATATYPE_FLOAT_16",
+            "type": "/net/features/denseblock3/denselayer16/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 22079
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer16/norm1/BatchNormalization",
+            "type": "/net/features/denseblock3/denselayer16/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 31184
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer16/norm1/BatchNormalization_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_8",
+            "type": "/net/features/denseblock3/denselayer16/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 90533
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer16/relu1/Relu",
+            "type": "/net/features/denseblock3/denselayer16/relu1/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer16/conv1/Conv",
+            "type": "/net/features/denseblock3/denselayer16/conv1/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer16/relu2/Relu",
+            "type": "/net/features/denseblock3/denselayer16/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 1840
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer16/relu2/Relu_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_16",
+            "type": "/net/features/denseblock3/denselayer16/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 2445
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer16/conv2/Conv",
+            "type": "/net/features/denseblock3/denselayer16/conv2/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 9018
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer17/Concat",
+            "type": "/net/features/denseblock3/denselayer17/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer17/Concat_output_0_updated_converted_QNN_DATATYPE_FLOAT_16",
+            "type": "/net/features/denseblock3/denselayer17/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 25097
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer17/norm1/BatchNormalization",
+            "type": "/net/features/denseblock3/denselayer17/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 32506
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer17/norm1/BatchNormalization_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_8",
+            "type": "/net/features/denseblock3/denselayer17/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 94588
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer17/relu1/Relu",
+            "type": "/net/features/denseblock3/denselayer17/relu1/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer17/conv1/Conv",
+            "type": "/net/features/denseblock3/denselayer17/conv1/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer17/relu2/Relu",
+            "type": "/net/features/denseblock3/denselayer17/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 1850
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer17/relu2/Relu_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_16",
+            "type": "/net/features/denseblock3/denselayer17/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 2521
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer17/conv2/Conv",
+            "type": "/net/features/denseblock3/denselayer17/conv2/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 3887
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer18/Concat",
+            "type": "/net/features/denseblock3/denselayer18/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer18/Concat_output_0_updated_converted_QNN_DATATYPE_FLOAT_16",
+            "type": "/net/features/denseblock3/denselayer18/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 73862
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer18/norm1/BatchNormalization",
+            "type": "/net/features/denseblock3/denselayer18/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 34513
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer18/norm1/BatchNormalization_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_8",
+            "type": "/net/features/denseblock3/denselayer18/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 98693
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer18/relu1/Relu",
+            "type": "/net/features/denseblock3/denselayer18/relu1/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer18/conv1/Conv",
+            "type": "/net/features/denseblock3/denselayer18/conv1/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer18/relu2/Relu",
+            "type": "/net/features/denseblock3/denselayer18/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 1942
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer18/relu2/Relu_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_16",
+            "type": "/net/features/denseblock3/denselayer18/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 2568
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer18/conv2/Conv",
+            "type": "/net/features/denseblock3/denselayer18/conv2/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 3876
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer19/Concat",
+            "type": "/net/features/denseblock3/denselayer19/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer19/Concat_output_0_updated_converted_QNN_DATATYPE_FLOAT_16",
+            "type": "/net/features/denseblock3/denselayer19/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 6145
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer19/norm1/BatchNormalization",
+            "type": "/net/features/denseblock3/denselayer19/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 36206
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer19/norm1/BatchNormalization_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_8",
+            "type": "/net/features/denseblock3/denselayer19/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 102518
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer19/relu1/Relu",
+            "type": "/net/features/denseblock3/denselayer19/relu1/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer19/conv1/Conv",
+            "type": "/net/features/denseblock3/denselayer19/conv1/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer19/relu2/Relu",
+            "type": "/net/features/denseblock3/denselayer19/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 2046
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer19/relu2/Relu_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_16",
+            "type": "/net/features/denseblock3/denselayer19/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 2567
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer19/conv2/Conv",
+            "type": "/net/features/denseblock3/denselayer19/conv2/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 3951
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer20/Concat",
+            "type": "/net/features/denseblock3/denselayer20/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer20/Concat_output_0_updated_converted_QNN_DATATYPE_FLOAT_16",
+            "type": "/net/features/denseblock3/denselayer20/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 9067
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer20/norm1/BatchNormalization",
+            "type": "/net/features/denseblock3/denselayer20/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 36668
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer20/norm1/BatchNormalization_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_8",
+            "type": "/net/features/denseblock3/denselayer20/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 106423
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer20/relu1/Relu",
+            "type": "/net/features/denseblock3/denselayer20/relu1/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer20/conv1/Conv",
+            "type": "/net/features/denseblock3/denselayer20/conv1/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer20/relu2/Relu",
+            "type": "/net/features/denseblock3/denselayer20/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 2088
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer20/relu2/Relu_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_16",
+            "type": "/net/features/denseblock3/denselayer20/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 2554
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer20/conv2/Conv",
+            "type": "/net/features/denseblock3/denselayer20/conv2/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 3985
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer21/Concat",
+            "type": "/net/features/denseblock3/denselayer21/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer21/Concat_output_0_updated_converted_QNN_DATATYPE_FLOAT_16",
+            "type": "/net/features/denseblock3/denselayer21/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 11952
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer21/norm1/BatchNormalization",
+            "type": "/net/features/denseblock3/denselayer21/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 38024
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer21/norm1/BatchNormalization_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_8",
+            "type": "/net/features/denseblock3/denselayer21/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 110341
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer21/relu1/Relu",
+            "type": "/net/features/denseblock3/denselayer21/relu1/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer21/conv1/Conv",
+            "type": "/net/features/denseblock3/denselayer21/conv1/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer21/relu2/Relu",
+            "type": "/net/features/denseblock3/denselayer21/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 2228
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer21/relu2/Relu_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_16",
+            "type": "/net/features/denseblock3/denselayer21/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 2521
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer21/conv2/Conv",
+            "type": "/net/features/denseblock3/denselayer21/conv2/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 4043
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer22/Concat",
+            "type": "/net/features/denseblock3/denselayer22/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer22/Concat_output_0_updated_converted_QNN_DATATYPE_FLOAT_16",
+            "type": "/net/features/denseblock3/denselayer22/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 14875
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer22/norm1/BatchNormalization",
+            "type": "/net/features/denseblock3/denselayer22/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 39457
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer22/norm1/BatchNormalization_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_8",
+            "type": "/net/features/denseblock3/denselayer22/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 114128
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer22/relu1/Relu",
+            "type": "/net/features/denseblock3/denselayer22/relu1/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer22/conv1/Conv",
+            "type": "/net/features/denseblock3/denselayer22/conv1/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer22/relu2/Relu",
+            "type": "/net/features/denseblock3/denselayer22/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 2252
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer22/relu2/Relu_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_16",
+            "type": "/net/features/denseblock3/denselayer22/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 2534
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer22/conv2/Conv",
+            "type": "/net/features/denseblock3/denselayer22/conv2/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 2401
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer23/Concat",
+            "type": "/net/features/denseblock3/denselayer23/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer23/Concat_output_0_updated_converted_QNN_DATATYPE_FLOAT_16",
+            "type": "/net/features/denseblock3/denselayer23/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 90391
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer23/norm1/BatchNormalization",
+            "type": "/net/features/denseblock3/denselayer23/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 41050
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer23/norm1/BatchNormalization_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_8",
+            "type": "/net/features/denseblock3/denselayer23/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 117879
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer23/relu1/Relu",
+            "type": "/net/features/denseblock3/denselayer23/relu1/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer23/conv1/Conv",
+            "type": "/net/features/denseblock3/denselayer23/conv1/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer23/relu2/Relu",
+            "type": "/net/features/denseblock3/denselayer23/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 2296
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer23/relu2/Relu_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_16",
+            "type": "/net/features/denseblock3/denselayer23/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 2517
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer23/conv2/Conv",
+            "type": "/net/features/denseblock3/denselayer23/conv2/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 2550
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer24/Concat",
+            "type": "/net/features/denseblock3/denselayer24/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer24/Concat_output_0_updated_converted_QNN_DATATYPE_FLOAT_16",
+            "type": "/net/features/denseblock3/denselayer24/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 20552
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer24/norm1/BatchNormalization",
+            "type": "/net/features/denseblock3/denselayer24/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 42439
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer24/norm1/BatchNormalization_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_8",
+            "type": "/net/features/denseblock3/denselayer24/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 121861
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer24/relu1/Relu",
+            "type": "/net/features/denseblock3/denselayer24/relu1/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer24/conv1/Conv",
+            "type": "/net/features/denseblock3/denselayer24/conv1/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer24/relu2/Relu",
+            "type": "/net/features/denseblock3/denselayer24/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 2284
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer24/relu2/Relu_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_16",
+            "type": "/net/features/denseblock3/denselayer24/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 2558
+        },
+        {
+            "name": "/net/features/denseblock3/denselayer24/conv2/Conv",
+            "type": "/net/features/denseblock3/denselayer24/conv2/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 2592
+        },
+        {
+            "name": "/net/features/denseblock3/Concat",
+            "type": "/net/features/denseblock3/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock3/Concat_output_0_updated_converted_QNN_DATATYPE_FLOAT_16",
+            "type": "/net/features/denseblock3/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 23487
+        },
+        {
+            "name": "/net/features/transition3/norm/BatchNormalization",
+            "type": "/net/features/transition3/norm/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 44164
+        },
+        {
+            "name": "/net/features/transition3/norm/BatchNormalization_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_8",
+            "type": "/net/features/transition3/norm/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 126293
+        },
+        {
+            "name": "/net/features/transition3/relu/Relu",
+            "type": "/net/features/transition3/relu/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/transition3/conv/Conv",
+            "type": "/net/features/transition3/conv/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 8966
+        },
+        {
+            "name": "/net/features/transition3/pool/AveragePool",
+            "type": "/net/features/transition3/pool/AveragePool",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 45642
+        },
+        {
+            "name": "/net/features/transition3/pool/AveragePool_output_0_updated_converted_QNN_DATATYPE_FLOAT_16",
+            "type": "/net/features/transition3/pool/AveragePool",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 3374
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer1/norm1/BatchNormalization",
+            "type": "/net/features/denseblock4/denselayer1/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 6127
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer1/norm1/BatchNormalization_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_8",
+            "type": "/net/features/denseblock4/denselayer1/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 16117
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer1/relu1/Relu",
+            "type": "/net/features/denseblock4/denselayer1/relu1/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer1/conv1/Conv",
+            "type": "/net/features/denseblock4/denselayer1/conv1/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer1/relu2/Relu",
+            "type": "/net/features/denseblock4/denselayer1/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 835
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer1/conv2/Conv",
+            "type": "/net/features/denseblock4/denselayer1/conv2/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 4352
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer2/Concat",
+            "type": "/net/features/denseblock4/denselayer2/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer2/Concat_output_0_updated_converted_QNN_DATATYPE_FLOAT_16",
+            "type": "/net/features/denseblock4/denselayer2/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 3623
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer2/norm1/BatchNormalization",
+            "type": "/net/features/denseblock4/denselayer2/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 7026
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer2/norm1/BatchNormalization_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_8",
+            "type": "/net/features/denseblock4/denselayer2/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 17090
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer2/relu1/Relu",
+            "type": "/net/features/denseblock4/denselayer2/relu1/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer2/conv1/Conv",
+            "type": "/net/features/denseblock4/denselayer2/conv1/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer2/relu2/Relu",
+            "type": "/net/features/denseblock4/denselayer2/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 812
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer2/conv2/Conv",
+            "type": "/net/features/denseblock4/denselayer2/conv2/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 989
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer3/Concat",
+            "type": "/net/features/denseblock4/denselayer3/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer3/Concat_output_0_updated_converted_QNN_DATATYPE_FLOAT_16",
+            "type": "/net/features/denseblock4/denselayer3/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 501
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer3/norm1/BatchNormalization",
+            "type": "/net/features/denseblock4/denselayer3/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 8090
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer3/norm1/BatchNormalization_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_8",
+            "type": "/net/features/denseblock4/denselayer3/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 18051
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer3/relu1/Relu",
+            "type": "/net/features/denseblock4/denselayer3/relu1/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer3/conv1/Conv",
+            "type": "/net/features/denseblock4/denselayer3/conv1/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer3/relu2/Relu",
+            "type": "/net/features/denseblock4/denselayer3/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 810
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer3/conv2/Conv",
+            "type": "/net/features/denseblock4/denselayer3/conv2/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 798
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer4/Concat",
+            "type": "/net/features/denseblock4/denselayer4/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer4/Concat_output_0_updated_converted_QNN_DATATYPE_FLOAT_16",
+            "type": "/net/features/denseblock4/denselayer4/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 690
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer4/norm1/BatchNormalization",
+            "type": "/net/features/denseblock4/denselayer4/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 7500
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer4/norm1/BatchNormalization_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_8",
+            "type": "/net/features/denseblock4/denselayer4/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 19033
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer4/relu1/Relu",
+            "type": "/net/features/denseblock4/denselayer4/relu1/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer4/conv1/Conv",
+            "type": "/net/features/denseblock4/denselayer4/conv1/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer4/relu2/Relu",
+            "type": "/net/features/denseblock4/denselayer4/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 767
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer4/conv2/Conv",
+            "type": "/net/features/denseblock4/denselayer4/conv2/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 776
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer5/Concat",
+            "type": "/net/features/denseblock4/denselayer5/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer5/Concat_output_0_updated_converted_QNN_DATATYPE_FLOAT_16",
+            "type": "/net/features/denseblock4/denselayer5/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 960
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer5/norm1/BatchNormalization",
+            "type": "/net/features/denseblock4/denselayer5/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 7807
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer5/norm1/BatchNormalization_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_8",
+            "type": "/net/features/denseblock4/denselayer5/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 20105
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer5/relu1/Relu",
+            "type": "/net/features/denseblock4/denselayer5/relu1/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer5/conv1/Conv",
+            "type": "/net/features/denseblock4/denselayer5/conv1/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer5/relu2/Relu",
+            "type": "/net/features/denseblock4/denselayer5/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 776
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer5/conv2/Conv",
+            "type": "/net/features/denseblock4/denselayer5/conv2/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 773
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer6/Concat",
+            "type": "/net/features/denseblock4/denselayer6/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer6/Concat_output_0_updated_converted_QNN_DATATYPE_FLOAT_16",
+            "type": "/net/features/denseblock4/denselayer6/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 1084
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer6/norm1/BatchNormalization",
+            "type": "/net/features/denseblock4/denselayer6/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 8016
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer6/norm1/BatchNormalization_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_8",
+            "type": "/net/features/denseblock4/denselayer6/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 21003
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer6/relu1/Relu",
+            "type": "/net/features/denseblock4/denselayer6/relu1/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer6/conv1/Conv",
+            "type": "/net/features/denseblock4/denselayer6/conv1/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer6/relu2/Relu",
+            "type": "/net/features/denseblock4/denselayer6/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 873
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer6/conv2/Conv",
+            "type": "/net/features/denseblock4/denselayer6/conv2/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 784
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer7/Concat",
+            "type": "/net/features/denseblock4/denselayer7/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer7/Concat_output_0_updated_converted_QNN_DATATYPE_FLOAT_16",
+            "type": "/net/features/denseblock4/denselayer7/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 1287
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer7/norm1/BatchNormalization",
+            "type": "/net/features/denseblock4/denselayer7/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 8947
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer7/norm1/BatchNormalization_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_8",
+            "type": "/net/features/denseblock4/denselayer7/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 21868
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer7/relu1/Relu",
+            "type": "/net/features/denseblock4/denselayer7/relu1/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer7/conv1/Conv",
+            "type": "/net/features/denseblock4/denselayer7/conv1/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer7/relu2/Relu",
+            "type": "/net/features/denseblock4/denselayer7/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 881
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer7/conv2/Conv",
+            "type": "/net/features/denseblock4/denselayer7/conv2/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 686
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer8/Concat",
+            "type": "/net/features/denseblock4/denselayer8/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer8/Concat_output_0_updated_converted_QNN_DATATYPE_FLOAT_16",
+            "type": "/net/features/denseblock4/denselayer8/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 1454
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer8/norm1/BatchNormalization",
+            "type": "/net/features/denseblock4/denselayer8/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 8715
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer8/norm1/BatchNormalization_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_8",
+            "type": "/net/features/denseblock4/denselayer8/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 22891
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer8/relu1/Relu",
+            "type": "/net/features/denseblock4/denselayer8/relu1/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer8/conv1/Conv",
+            "type": "/net/features/denseblock4/denselayer8/conv1/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer8/relu2/Relu",
+            "type": "/net/features/denseblock4/denselayer8/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 877
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer8/conv2/Conv",
+            "type": "/net/features/denseblock4/denselayer8/conv2/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 706
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer9/Concat",
+            "type": "/net/features/denseblock4/denselayer9/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer9/Concat_output_0_updated_converted_QNN_DATATYPE_FLOAT_16",
+            "type": "/net/features/denseblock4/denselayer9/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 1665
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer9/norm1/BatchNormalization",
+            "type": "/net/features/denseblock4/denselayer9/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 8839
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer9/norm1/BatchNormalization_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_8",
+            "type": "/net/features/denseblock4/denselayer9/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 23576
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer9/relu1/Relu",
+            "type": "/net/features/denseblock4/denselayer9/relu1/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer9/conv1/Conv",
+            "type": "/net/features/denseblock4/denselayer9/conv1/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer9/relu2/Relu",
+            "type": "/net/features/denseblock4/denselayer9/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 893
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer9/conv2/Conv",
+            "type": "/net/features/denseblock4/denselayer9/conv2/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 779
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer10/Concat",
+            "type": "/net/features/denseblock4/denselayer10/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer10/Concat_output_0_updated_converted_QNN_DATATYPE_FLOAT_16",
+            "type": "/net/features/denseblock4/denselayer10/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 336
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer10/norm1/BatchNormalization",
+            "type": "/net/features/denseblock4/denselayer10/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 9728
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer10/norm1/BatchNormalization_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_8",
+            "type": "/net/features/denseblock4/denselayer10/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 24929
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer10/relu1/Relu",
+            "type": "/net/features/denseblock4/denselayer10/relu1/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer10/conv1/Conv",
+            "type": "/net/features/denseblock4/denselayer10/conv1/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer10/relu2/Relu",
+            "type": "/net/features/denseblock4/denselayer10/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 872
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer10/conv2/Conv",
+            "type": "/net/features/denseblock4/denselayer10/conv2/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 850
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer11/Concat",
+            "type": "/net/features/denseblock4/denselayer11/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer11/Concat_output_0_updated_converted_QNN_DATATYPE_FLOAT_16",
+            "type": "/net/features/denseblock4/denselayer11/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 488
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer11/norm1/BatchNormalization",
+            "type": "/net/features/denseblock4/denselayer11/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 10111
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer11/norm1/BatchNormalization_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_8",
+            "type": "/net/features/denseblock4/denselayer11/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 25846
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer11/relu1/Relu",
+            "type": "/net/features/denseblock4/denselayer11/relu1/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer11/conv1/Conv",
+            "type": "/net/features/denseblock4/denselayer11/conv1/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer11/relu2/Relu",
+            "type": "/net/features/denseblock4/denselayer11/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 841
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer11/conv2/Conv",
+            "type": "/net/features/denseblock4/denselayer11/conv2/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 837
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer12/Concat",
+            "type": "/net/features/denseblock4/denselayer12/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer12/Concat_output_0_updated_converted_QNN_DATATYPE_FLOAT_16",
+            "type": "/net/features/denseblock4/denselayer12/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 16307
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer12/norm1/BatchNormalization",
+            "type": "/net/features/denseblock4/denselayer12/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 10635
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer12/norm1/BatchNormalization_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_8",
+            "type": "/net/features/denseblock4/denselayer12/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 26943
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer12/relu1/Relu",
+            "type": "/net/features/denseblock4/denselayer12/relu1/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer12/conv1/Conv",
+            "type": "/net/features/denseblock4/denselayer12/conv1/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer12/relu2/Relu",
+            "type": "/net/features/denseblock4/denselayer12/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 895
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer12/conv2/Conv",
+            "type": "/net/features/denseblock4/denselayer12/conv2/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 865
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer13/Concat",
+            "type": "/net/features/denseblock4/denselayer13/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer13/Concat_output_0_updated_converted_QNN_DATATYPE_FLOAT_16",
+            "type": "/net/features/denseblock4/denselayer13/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 513
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer13/norm1/BatchNormalization",
+            "type": "/net/features/denseblock4/denselayer13/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 11072
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer13/norm1/BatchNormalization_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_8",
+            "type": "/net/features/denseblock4/denselayer13/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 27919
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer13/relu1/Relu",
+            "type": "/net/features/denseblock4/denselayer13/relu1/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer13/conv1/Conv",
+            "type": "/net/features/denseblock4/denselayer13/conv1/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer13/relu2/Relu",
+            "type": "/net/features/denseblock4/denselayer13/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 857
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer13/conv2/Conv",
+            "type": "/net/features/denseblock4/denselayer13/conv2/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 791
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer14/Concat",
+            "type": "/net/features/denseblock4/denselayer14/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer14/Concat_output_0_updated_converted_QNN_DATATYPE_FLOAT_16",
+            "type": "/net/features/denseblock4/denselayer14/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 15648
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer14/norm1/BatchNormalization",
+            "type": "/net/features/denseblock4/denselayer14/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 10922
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer14/norm1/BatchNormalization_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_8",
+            "type": "/net/features/denseblock4/denselayer14/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 28551
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer14/relu1/Relu",
+            "type": "/net/features/denseblock4/denselayer14/relu1/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer14/conv1/Conv",
+            "type": "/net/features/denseblock4/denselayer14/conv1/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer14/relu2/Relu",
+            "type": "/net/features/denseblock4/denselayer14/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 929
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer14/conv2/Conv",
+            "type": "/net/features/denseblock4/denselayer14/conv2/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 828
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer15/Concat",
+            "type": "/net/features/denseblock4/denselayer15/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer15/Concat_output_0_updated_converted_QNN_DATATYPE_FLOAT_16",
+            "type": "/net/features/denseblock4/denselayer15/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 500
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer15/norm1/BatchNormalization",
+            "type": "/net/features/denseblock4/denselayer15/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 11364
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer15/norm1/BatchNormalization_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_8",
+            "type": "/net/features/denseblock4/denselayer15/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 29530
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer15/relu1/Relu",
+            "type": "/net/features/denseblock4/denselayer15/relu1/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer15/conv1/Conv",
+            "type": "/net/features/denseblock4/denselayer15/conv1/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer15/relu2/Relu",
+            "type": "/net/features/denseblock4/denselayer15/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 899
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer15/conv2/Conv",
+            "type": "/net/features/denseblock4/denselayer15/conv2/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 702
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer16/Concat",
+            "type": "/net/features/denseblock4/denselayer16/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer16/Concat_output_0_updated_converted_QNN_DATATYPE_FLOAT_16",
+            "type": "/net/features/denseblock4/denselayer16/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 676
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer16/norm1/BatchNormalization",
+            "type": "/net/features/denseblock4/denselayer16/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 11598
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer16/norm1/BatchNormalization_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_8",
+            "type": "/net/features/denseblock4/denselayer16/norm1/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 30552
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer16/relu1/Relu",
+            "type": "/net/features/denseblock4/denselayer16/relu1/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer16/conv1/Conv",
+            "type": "/net/features/denseblock4/denselayer16/conv1/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer16/relu2/Relu",
+            "type": "/net/features/denseblock4/denselayer16/relu2/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 902
+        },
+        {
+            "name": "/net/features/denseblock4/denselayer16/conv2/Conv",
+            "type": "/net/features/denseblock4/denselayer16/conv2/Conv",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 824
+        },
+        {
+            "name": "/net/features/denseblock4/Concat",
+            "type": "/net/features/denseblock4/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/features/denseblock4/Concat_output_0_updated_converted_QNN_DATATYPE_FLOAT_16",
+            "type": "/net/features/denseblock4/Concat",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 889
+        },
+        {
+            "name": "/net/features/norm5/BatchNormalization",
+            "type": "/net/features/norm5/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 11926
+        },
+        {
+            "name": "/net/features/norm5/BatchNormalization_output_0_updated_converted_QNN_DATATYPE_UFIXED_POINT_8",
+            "type": "/net/features/norm5/BatchNormalization",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 31454
+        },
+        {
+            "name": "/net/Relu",
+            "type": "/net/Relu",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/GlobalAveragePool",
+            "type": "/net/GlobalAveragePool",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 19597
+        },
+        {
+            "name": "/net/GlobalAveragePool_output_0_updated_0123",
+            "type": "/net/GlobalAveragePool",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 0
+        },
+        {
+            "name": "/net/classifier/Gemm",
+            "type": "/net/classifier/Gemm",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 5978
+        },
+        {
+            "name": "Output",
+            "type": "Output",
+            "compute_unit": "NPU",
+            "execution_time": 0,
+            "execution_cycles": 6898
+        }
+    ]
+}
